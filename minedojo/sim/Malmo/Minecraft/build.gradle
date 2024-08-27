@@ -22,7 +22,7 @@ buildscript {
 //             exclude group: 'org.ow2.asm', module: 'asm-debug-all'
 //         }
 
-        classpath fileTree(dir:'/opt/MixinGradle/dcfaf61/', include: '*.jar')
+        classpath fileTree(dir: absolute path to your MixinGradle file, include: '*.jar')
 
         classpath 'com.github.yunfanjiang:ForgeGradle:FG_2.2_patched-SNAPSHOT'
     }
